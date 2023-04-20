@@ -4,15 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kirill's personal page!</title>
 </head>
 <body>
     <main>
+        <header>
+            <navbar>
+                Navigation: 
+                <a href="#about">About </a>
+                <a href="#projects">Projects </a>
+                <a href="#tierlists">Tierlists </a>
+            </navbar>
+        </header>
         <section>
             <h1>Hello, I'm Kirill!</h1>
             <p>Welcome to my page. Here you will find some information about me.</p>
         </section>
-        <section>
+        <section id="about">
             <h2>About me</h2>
             <p>I'm a junior full-stack developer, improving my skills at Integrify academy. Naturally, I love coding, anything from websites and simple apps to videogames! 
                 <br>
@@ -21,7 +29,7 @@
                 Throughout my studies I've been programming as a hobby, but recently I've decided to take coding to the next level and kickstart a career in the field.
             </p>
         </section>
-        <section>
+        <section id="projects">
             <h3>
                 Some of the projects I made (from oldest to most recent):
             </h3>
@@ -52,15 +60,19 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section id="tierlists">
             <h3>
                 Tierlists!
             </h3>
             <table>
-                <tr><th>Rank</th><th>Food</th><th>Musical instrument</th><th>Pet</th></tr>
-                <tr><td>1</td><td>Burger</td><td>Guitar</td><td>Dog</td></tr>
-                <tr><td>2</td><td>Pizza</td><td>Piano</td><td>Cat</td></tr>
-                <tr><td>3</td><td>Pasta</td><td>Drums</td><td>Parrot</td></tr>
+                <thead>
+                    <tr><th>Rank</th><th>Food</th><th>Musical instrument</th><th>Pet</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>Burger</td><td>Guitar</td><td>Dog</td></tr>
+                    <tr><td>2</td><td>Pizza</td><td>Piano</td><td>Cat</td></tr>
+                    <tr><td>3</td><td>Pasta</td><td>Drums</td><td>Parrot</td></tr>
+                </tbody>
             </table>
         </section>
     </main>
